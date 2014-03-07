@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Leaflet JS (Makes Maps) -->
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />		
+		<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+		
+		<!-- Custom Styles (Makes Things look pretty) -->
+		<style>
+			#map { width: 600px; height: 600px; display:block;}
+		</style>
+	</head>
+	<body>
+		<div id="map"></div>
+		<!-- JavaScript to make the Map -->
+		<script>
+			
+			var map = L.map('map').setView([40.713240, -74.003748], 13);
+			L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+			    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+			    maxZoom: 18
+			}).addTo(map);
+
+			var DCAS = L.marker([40.713240, -74.003748]).addTo(map);
+			DCAS.bindPopup("<b>Open Lab</b><br>Friday From 1pm to 5pm");
+
+			var MOO = L.marker([40.713656, -74.007508]).addTo(map);
+			MOO.bindPopup("<b>MOO</b><br>This is where I work");
+		
+		</script>
+	</body>
+</html>

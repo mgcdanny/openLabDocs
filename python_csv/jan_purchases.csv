@@ -1,0 +1,32 @@
+date,item,quantity,total_cost,agency
+1/1/2014,pencil,10,1,doe
+1/2/2014,paper,15,1.5,dof
+1/3/2014,cups,20,2,dep
+1/4/2014,article,25,2.5,nypd
+1/5/2014,widget,30,1,moo
+1/6/2014,water,35,1.5,d o e
+1/7/2014,pencil,40,2,nYpd
+1/8/2014,paper,45,2.5,doe
+1/9/2014,cups,50,1,dof
+1/10/2014,article,55,1.5,dep
+1/11/2014,widget,60,2,nypd
+1/12/2014,water,65,2.5,moo
+1/13/2014,pencil,70,1,d o e
+1/14/2014,paper,75,1.5,nYpd
+1/15/2014,cups,80,2,doe
+1/16/2014,article,85,2.5,dof
+1/17/2014,widget,90,1,dep
+1/18/2014,water,95,1.5,nypd
+1/19/2014,pencil,100,2,moo
+1/20/2014,paper,105,2.5,d o e
+1/21/2014,cups,110,1,nYpd
+1/22/2014,article,115,1.5,doe
+1/23/2014,widget,120,2,dof
+1/24/2014,water,125,2.5,dep
+1/25/2014,pencil,130,1,nypd
+1/26/2014,paper,135,1.5,moo
+1/27/2014,cups,140,2,d o e
+1/28/2014,article,145,2.5,nYpd
+1/29/2014,widget,150,1,doe
+1/30/2014,water,155,1.5,dof
+1/31/2014,pencil,160,2,dep
