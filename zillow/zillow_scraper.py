@@ -8,12 +8,23 @@ tree = etree.fromstring(resp)
 #print(tree.xpath('//zipcode/text()'))
 
 addresses = tree.xpath('//address')
+
+for address in addresses:
+    print(address)
+    print("step 2")
+    print("step 3")
+
+print("this prints after loop")
+
+
+"""
 addresses_len = len(addresses)-1
 zestimates = tree.xpath('//zestimate')
 zestimates_len = len(zestimates)-1
 if addresses_len != zestimates_len: print("Warning: addresses are not equal to zestimates")
 
-for x in range(0,addresses_len):
+
+for x in :
 	streets[x] = addresses[x].xpath('./street/text()')
 	zipcodes[x] = addresses[x].xpath('./zipcode/text()')
 	cities[x] = addresses[x].xpath('./city/text()')
@@ -24,5 +35,6 @@ for x in range(0,addresses_len):
 	updates[x] = zestimates[x].xpath('./last-updated/text()')
 	percentiles[x] = zestimates[x].xpath('./percentile/text()')
 	Range[x] = zestimates[x].xpath('./valuationRange')
-	lowRange[x] = Range[x].xpath("./low currency="USD"/text()")
-	highRange[x] = Range[x].xpath("./high currency="USD"/text()")
+	#lowRange[x] = Range[x].xpath("./low currency="USD"/text()")
+	#highRange[x] = Range[x].xpath("./high currency="USD"/text()")
+"""
